@@ -26,39 +26,49 @@
     <label for="Gender">Gender :</label>
     <select name="type" id="Gender">
    
-      <option  selected`
+      <option  selected
        value="male">male</option>
       <option value=" female"> female</option>
-
+</select>
+      <br>
       <br>
 <label for="radio">English language :</label>
-
+<br>
+<br>
 <div id="radio">
-  <label for="W" >Weak</label>
+  <label for="W"  >Weak</label>
   
-  <input type="radio" id="W"> 
+  <input type="radio" id="W" name="language" value="weak" > 
   
   <label for="G">good</label>
   
-  <input type="radio" id="G">
+  <input type="radio" id="G"  name="language" value="good">
    
   <label for="E">excellent</label>
   
-  <input type="radio" id="E">
-  </div>"
+  <input type="radio" id="E" name="language" value="excellent" checked>
+</div>
+  <hr>
+<div>
+  <label for="Example">Example</label>
+
+  <input type="checkbox" id="Example" name="ex" value="Example">
+  </div>
   <br>
   <br>
   <div>
   <input type="submit" value="save">
-  <input type="submit" value="cancel">
+  <input type="submit" value="cancel" >
 </div>
  </form>
  <hr>
  <form>
   <p><b>All users</b></p>
-  <table border="1" >
+  <table border="1" style="width: 100%;">
     <tr><th>id</th><th>name</th><th>email</th> <th>gender</th><th>English</th></tr>
+
     <tr><td>1</td><td>mazen</td><td>mazen@gmail.com</td><td>male</td><td>good</td></tr>
+
     <tr><td>2</td><td>salma</td><td>salma@gmail.com</td><td>female</td><td>excellent</td></tr>
   </table>
  </form>
